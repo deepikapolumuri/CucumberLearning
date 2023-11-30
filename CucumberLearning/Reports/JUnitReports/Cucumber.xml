@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="15.723">
+<testcase classname="Test the login functionality of facebook" name="Test the vaild login" time="9.017">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enters email address and passward.................................passed
+And click on login button...................................................passed
+Then user should lands on homepage..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the login functionality of facebook" name="Test the vaild login1" time="6.53">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user enters email address and passward.................................passed
+And click on login button...................................................passed
+Then user should lands on homepage..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
