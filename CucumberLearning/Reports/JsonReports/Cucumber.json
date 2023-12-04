@@ -1,229 +1,116 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-12-01T05:53:42.970Z",
-        "line": 3,
-        "name": "Test the vaild login using DataTable",
+        "start_timestamp": "2023-12-04T03:52:20.097Z",
+        "line": 4,
+        "name": "Scenario1",
         "description": "",
-        "id": "test-the-login-functionality-of-facebook-using-datatable;test-the-vaild-login-using-datatable",
+        "id": "using-the-tags-in-cucumber;scenario1",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 12822000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 243000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user enters credentails using DataTable",
+            "name": "This is scenario1",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.user_enters_credentails_using_DataTable(io.cucumber.datatable.DataTable)"
+              "location": "com.stepDefinition.TagsDemo.this_is_scenario1()"
             },
-            "rows": [
-              {
-                "cells": [
-                  "deepikapolumuri@gmail.com",
-                  "Varadhi@2022"
-                ]
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "click on login button",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 207000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user should lands on homepage",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_should_lands_on_homepage()"
-            },
-            "keyword": "Then "
+            "keyword": "Given "
           }
-        ]
-      }
-    ],
-    "name": "Test the login functionality of facebook using DataTable",
-    "description": "",
-    "id": "test-the-login-functionality-of-facebook-using-datatable",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/DataTable.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2023-12-01T05:53:56.478Z",
-        "line": 11,
-        "name": "Test the vaild login",
-        "description": "",
-        "id": "test-the-login-functionality-of-facebook;test-the-vaild-login;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
+        ],
+        "tags": [
           {
-            "result": {
-              "duration": 5676000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
+            "name": "@FunctionalTest"
           },
           {
-            "result": {
-              "duration": 192000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters deepikapolumuri@gmail.com and Varadhi@2022",
-            "match": {
-              "arguments": [
-                {
-                  "val": "deepikapolumuri@gmail.com",
-                  "offset": 12
-                },
-                {
-                  "val": "Varadhi@2022",
-                  "offset": 42
-                }
-              ],
-              "location": "com.stepDefinition.LoginSteps.user_enters_email_address_and_passward(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 92000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "click on login button",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 212000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should lands on homepage",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_should_lands_on_homepage()"
-            },
-            "keyword": "Then "
+            "name": "@SmokeTest"
           }
         ]
       },
       {
-        "start_timestamp": "2023-12-01T05:54:02.662Z",
-        "line": 12,
-        "name": "Test the vaild login",
+        "start_timestamp": "2023-12-04T03:52:20.170Z",
+        "line": 7,
+        "name": "Scenario2",
         "description": "",
-        "id": "test-the-login-functionality-of-facebook;test-the-vaild-login;;3",
+        "id": "using-the-tags-in-cucumber;scenario2",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6039000000,
               "status": "passed"
             },
-            "line": 4,
-            "name": "user is on login page",
+            "line": 8,
+            "name": "This is scenario2",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.user_is_on_login_page()"
+              "location": "com.stepDefinition.TagsDemo.this_is_scenario2()"
             },
             "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
           },
           {
-            "result": {
-              "duration": 200000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user enters deepikapolumuri2@gmail.com and Varadahi@20223",
-            "match": {
-              "arguments": [
-                {
-                  "val": "deepikapolumuri2@gmail.com",
-                  "offset": 12
-                },
-                {
-                  "val": "Varadahi@20223",
-                  "offset": 43
-                }
-              ],
-              "location": "com.stepDefinition.LoginSteps.user_enters_email_address_and_passward(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-12-04T03:52:20.176Z",
+        "line": 11,
+        "name": "Scenario3",
+        "description": "",
+        "id": "using-the-tags-in-cucumber;scenario3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
           {
             "result": {
-              "duration": 81000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "click on login button",
+            "line": 12,
+            "name": "This is scenario3",
             "match": {
-              "location": "com.stepDefinition.LoginSteps.click_on_login_button()"
+              "location": "com.stepDefinition.TagsDemo.this_is_scenario3()"
             },
-            "keyword": "And "
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
           },
           {
-            "result": {
-              "duration": 148000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user should lands on homepage",
-            "match": {
-              "location": "com.stepDefinition.LoginSteps.user_should_lands_on_homepage()"
-            },
-            "keyword": "Then "
+            "name": "@SanityTest"
+          },
+          {
+            "name": "@SmokeTest"
           }
         ]
       }
     ],
-    "name": "Test the login functionality of facebook",
+    "name": "Using the tags in Cucumber",
     "description": "",
-    "id": "test-the-login-functionality-of-facebook",
+    "id": "using-the-tags-in-cucumber",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/loginFeature.feature",
-    "tags": []
+    "uri": "file:src/test/resources/Features/TagsDemo.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

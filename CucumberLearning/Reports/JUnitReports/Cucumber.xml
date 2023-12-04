@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="26.381">
-<testcase classname="Test the login functionality of facebook using DataTable" name="Test the vaild login using DataTable" time="13.482">
-<system-out><![CDATA[Given user is on login page.................................................passed
-When user enters credentails using DataTable................................passed
-And click on login button...................................................passed
-Then user should lands on homepage..........................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.248">
+<testcase classname="Using the tags in Cucumber" name="Scenario1" time="0.062">
+<system-out><![CDATA[Given This is scenario1.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test the login functionality of facebook" name="Test the vaild login" time="6.18">
-<system-out><![CDATA[Given user is on login page.................................................passed
-When user enters deepikapolumuri@gmail.com and Varadhi@2022.................passed
-And click on login button...................................................passed
-Then user should lands on homepage..........................................passed
+<testcase classname="Using the tags in Cucumber" name="Scenario2" time="0.003">
+<system-out><![CDATA[Given This is scenario2.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Test the login functionality of facebook" name="Test the vaild login 2" time="6.469">
-<system-out><![CDATA[Given user is on login page.................................................passed
-When user enters deepikapolumuri2@gmail.com and Varadahi@20223..............passed
-And click on login button...................................................passed
-Then user should lands on homepage..........................................passed
+<testcase classname="Using the tags in Cucumber" name="Scenario3" time="0.001">
+<system-out><![CDATA[Given This is scenario3.....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
